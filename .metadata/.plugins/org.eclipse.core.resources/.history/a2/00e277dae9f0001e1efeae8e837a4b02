@@ -1,0 +1,18 @@
+package Search;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeSuite;
+
+public class SearchTest {
+  @Test
+  public void f() {
+  Search1 s1=new Search1();
+  s1.Search1(null);
+  }
+  @BeforeSuite
+  public void beforeSuite() {
+	  
+	  
+  }
+
+}

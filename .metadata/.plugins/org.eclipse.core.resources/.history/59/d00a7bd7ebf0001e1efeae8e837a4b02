@@ -1,0 +1,42 @@
+package Search;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+
+public class Search1 {
+	public WebDriver driver=null;
+	public  Search1(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+
+	public void login()
+	{
+		try
+		{
+		driver.findElement(By.name("q")).sendKeys("Automation Testing");
+		Thread.sleep(2000);
+		driver.findElement(By.name("q")).sendKeys(Keys.ESCAPE);
+		Thread.sleep(2000);
+		}
+		catch(Exception e)
+		{
+		System.out.println(e.getMessage());
+		}
+		}
+	
+	public void Search1()
+	{
+		try
+		{
+		driver.findElement(By.name("btnK")).click();
+		Thread.sleep(2000);
+		}
+		catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+		}
+
+}

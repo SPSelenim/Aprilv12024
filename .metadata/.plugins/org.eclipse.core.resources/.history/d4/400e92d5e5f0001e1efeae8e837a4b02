@@ -1,0 +1,12 @@
+package Home;
+
+import org.openqa.selenium.WebDriver;
+
+public class Home1 {
+	
+	public Home (WebDriver driver)
+	{
+		driver=this.driver
+	}
+
+}

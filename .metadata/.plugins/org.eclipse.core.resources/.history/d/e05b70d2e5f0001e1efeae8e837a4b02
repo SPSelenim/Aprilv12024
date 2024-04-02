@@ -1,0 +1,10 @@
+package Home;
+
+public class Home1 {
+	
+	public Home (WebDriver driver)
+	{
+		driver=this.driver
+	}
+
+}

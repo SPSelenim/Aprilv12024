@@ -1,0 +1,12 @@
+package Search;
+
+import org.openqa.selenium.WebDriver;
+
+public class Search1 {
+	public WebDriver driver=null;
+	public void Search1(WebDriver driver)
+	{
+		driver=this.driver;
+	}
+
+}

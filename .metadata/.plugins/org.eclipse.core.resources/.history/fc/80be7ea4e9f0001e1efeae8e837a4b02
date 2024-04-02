@@ -1,0 +1,21 @@
+package Home;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Home1 {
+	
+public WebDriver driver=null;	
+
+
+public void Home (WebDriver driver)
+	{
+		this.driver=driver;
+	}
+
+	public void login()
+	{
+		driver.findElement(By.name("q")).sendKeys("Automation Testing");
+	}
+	
+}
